@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | P2 - Pen Perfection</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #222;
+    }
+    header {
+      background-color: #2d2e32;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 span {
+      font-size: 1.4em;
+      color: #adaba3;
+    }
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .services-section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .service-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      padding: 1.5rem;
+      transition: transform 0.2s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card h3 {
+      margin-top: 0;
+      color: #2d2e32;
+    }
+    .btn-order {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #2d2e32;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+    .btn-order:hover{
+        transform: scale(1.05);
+        background-color: #adaba3;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f1f1f1;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><span>P</span>2 - <span>P</span>en <span>P</span>erfection</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="order.html">Order</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="services-section">
+    <h2>Our Academic Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Research Paper Writing</h3>
+        <p>Expertly crafted research papers with references.</p>
+        <a href="order.html?service=Research Paper Writing" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Thesis & Dissertation Help</h3>
+        <p>Complete thesis support from proposal to final submission.</p>
+        <a href="order.html?service=Thesis & Dissertation Help" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Essay Writing</h3>
+        <p>Customized academic essays on any topic and style.</p>
+        <a href="order.html?service=Essay Writing" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Assignment Help</h3>
+        <p>Accurate and timely assistance for all kinds of assignments.</p>
+        <a href="order.html?service=Assignment Help" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Case Study Solutions</h3>
+        <p>Detailed analysis and case-based answers tailored to your course.</p>
+        <a href="order.html?service=Case Study Solutions" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Lab Report Writing</h3>
+        <p>Structured lab reports with accurate results and observations.</p>
+        <a href="order.html?service=Lab Report Writing" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Plagiarism Removal</h3>
+        <p>We rewrite your content professionally to remove plagiarism.</p>
+        <a href="order.html?service=Plagiarism Removal" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Presentation Making</h3>
+        <p>Visually engaging academic PowerPoints and Google Slides.</p>
+        <a href="order.html?service=Presentation Making" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Proofreading & Editing</h3>
+        <p>Correct grammar, formatting, and structure issues in your document.</p>
+        <a href="order.html?service=Proofreading & Editing" class="btn-order">Place Order</a>
+      </div>
+      <div class="service-card">
+        <h3>Online Exam Help</h3>
+        <p>Get expert support for your online quizzes, tests, and exams.</p>
+        <a href="order.html?service=Online Exam Help" class="btn-order">Place Order</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 P2 - Pen Perfection. Perfect every word.</p>
+  </footer>
+</body>
+
+</html>
